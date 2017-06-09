@@ -1,4 +1,4 @@
 ## MVP-interactor-with-rewrited-firebase-function
 This is a rewrite of a MVP firebase on [Medium tutorial](https://medium.cobeisfresh.com/using-firebase-to-create-a-simple-chat-application-in-android-4b32fdbf565e)(Using Firebase to create a “simple” Chat application in Android), because the firebase have been changed the API, which the [original project](https://github.com/filbabic/InternalChat) is outdated. It causes the problem of registering user or other function require firebase API e.g enter the credentials on register activity will keep returning request failure toast. So I just changed the latest firebase version (currently 10.2.6) from original project and all MVP structure still keep remain unchanged.
 
-Also keep in mind that need to create own firebase project and add the google-services.json to project folder :)
+Also keep in mind that need to create own firebase project, enable email password Auth and add the google-services.json to project folder :)
